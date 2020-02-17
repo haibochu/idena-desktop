@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {useRouter} from 'next/router'
 import {margin, borderRadius, darken, transparentize, padding} from 'polished'
-
 import {Box, List, Link, Text} from '.'
 import Flex from './flex'
 import theme, {rem} from '../theme'
@@ -170,6 +169,14 @@ function Nav() {
         </NavItem>
         <NavItem href="/settings" icon={<i className="icon icon--settings" />}>
           Settings
+        </NavItem>
+        <NavItem
+          href="/ads/list"
+          icon={
+            <img src="/static/ads-icn.svg" alt="ads icon" className="icon" />
+          }
+        >
+          Ads
         </NavItem>
       </List>
       <style jsx>{`
