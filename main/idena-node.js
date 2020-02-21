@@ -212,6 +212,7 @@ function getCurrentVersion(tempNode) {
 
       nodeVersion.on('error', err => reject(err))
     } catch (e) {
+      console.log(e)
       return reject(e)
     }
   })

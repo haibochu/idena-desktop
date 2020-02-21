@@ -36,6 +36,7 @@ const fontSizes = {
   normal: '1rem',
   small: '0.72rem',
   large: '1.4em',
+  large18: 18,
 }
 
 const fontWeights = {
@@ -48,6 +49,7 @@ const fontWeights = {
 const spacings = {
   xxsmall: '0.1em',
   small: '0.5em',
+  small4: 4,
   small8: 8,
   small12: 12,
   normal: '1em',
@@ -56,6 +58,7 @@ const spacings = {
   medium32: 32,
   large: 80,
   large48: 48,
+  large64: 64,
   xlarge: '2em',
   xxlarge: '3em',
   xxxlarge: '4em',
